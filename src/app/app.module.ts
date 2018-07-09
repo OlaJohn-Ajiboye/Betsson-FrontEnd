@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { AppComponent } from './app.component';
 import { MoviesComponent } from './components/movies/movies.component';
@@ -41,7 +40,6 @@ const appRoutes: Routes = [
     ),
     BrowserModule,
     FormsModule,
-    AngularFontAwesomeModule
   ],
   providers: [MoviesService],
   bootstrap: [AppComponent]
