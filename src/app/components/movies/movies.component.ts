@@ -12,9 +12,24 @@ export class MoviesComponent implements OnInit {
   movies: any = [];
   moviesList: any = [];
   query: any = '';
+  genres: any = [];
   ngOnInit() {
     this.getMovies();
     this.moviesList = this.movies;
+    this.genres = [
+      'all',
+      'action',
+      'adventure',
+      'biography',
+      'comedy',
+      'crime',
+      'drama',
+      'history',
+      'mystery',
+      'scifi',
+      'sport',
+      'thriller'
+    ];
   }
   getMovies(): void {
     this.movies = this.movieService.getMovies();
@@ -23,6 +38,19 @@ export class MoviesComponent implements OnInit {
     this.moviesList = this.movies.filter(movie => {
       return movie.name.toLocaleLowerCase().indexOf(query.toLocaleLowerCase()) > -1;
     });
-    console.log(this.moviesList);
+  }
+  selectGenre(genre) {
+    // let genreMovies = [];
+    if (genre === 'all') {
+      this.moviesList = this.movies;
+    } else {
+      this.moviesList = this.movies.filter(movie => {
+        const genreMovies = movie.genres.filter(g => {
+          return g === genre;
+        });
+        return genreMovies && genreMovies.length > 0;
+      });
+    }
+    console.log(this.moviesList.length);
   }
 }

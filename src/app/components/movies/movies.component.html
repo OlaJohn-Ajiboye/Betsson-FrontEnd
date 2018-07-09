@@ -1,20 +1,31 @@
 <div class="container-fluid movies-list">
     <div class="container">
         <div class="row">
-      <div class="col-12">
-          <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <span class="input-group-text" id="basic-addon2">@example.com</span>
-              </div>
-            </div>
-      </div>
+          <div class="col-12 col-sm-6">
+              <div class="input-group mb-3">
+                  <input type="text" class="form-control" [(ngModel)]="query" placeholder="Search Movies...." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2" (click)="search(query)">Search</span>
+                  </div>
+                </div>
+          </div>
+          <div class="col-12 col-sm-6">
+              <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Genres</label>
+                  </div>
+                  <select class="custom-select" id="inputGroupSelect01" (change)="selectGenre($event.target.value)">
+                    <option selected>Filter by Genre...</option>
+                    <option *ngFor="let genre of genres" [value]="genre">{{genre}}</option>
+                  </select>
+                </div>
+          </div>
         </div>
-      </div>
-            
+        
+    
       <div class="container pad">
-        <div class="row">
-            <div class=" col-sm-3 pad" *ngFor="let movie of moviesList">
+        <div class="row  text-center">
+            <div class=" col-sm-3  pad" *ngFor="let movie of moviesList">
                 <div class="card text-xs-center">
                   <img class="card-img-top img-responsive zoom" [src]="movie.img" [src]="movie.img" [routerLink]="['/movie', movie.id]">
                   <div class="card-body">

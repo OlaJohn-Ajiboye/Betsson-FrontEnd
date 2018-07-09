@@ -17,10 +17,10 @@
     
   }
   .pad{
-    padding-bottom: 3.5em
+    padding-bottom: 2em
   }
   .card img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 1060
   }
   .card h5{
@@ -28,8 +28,17 @@
   }
   
   .card{
-    height: 290px;
-    width: 190px;
+    height: 400px;
+    width: 250px;
+  }
+  #basic-addon2{
+    cursor:pointer
   }
   
-  
+  @media only screen and (max-width: 600px) {
+    .movies{
+        margin: auto;
+        /* padding-left:20px */
+       
+    }
+}
