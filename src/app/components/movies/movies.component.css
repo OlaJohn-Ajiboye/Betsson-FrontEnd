@@ -1,0 +1,35 @@
+.movies-list{
+    background-color: #f8f9fa;
+    padding: 2em
+}
+.card{
+    background-color: #9e9e9e;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+ 
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: transform .2s;
+    
+  }
+  .pad{
+    padding-bottom: 3.5em
+  }
+  .card img:hover{
+    transform: scale(1.2);
+    z-index: 1060
+  }
+  .card h5{
+    cursor:pointer;
+  }
+  
+  .card{
+    height: 290px;
+    width: 190px;
+  }
+  
+  

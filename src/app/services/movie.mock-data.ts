@@ -9,7 +9,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.adventure, genreType.comedy],
 		rate: "8.6",
 		length: "1hr 48mins",
-		img: "assets/movies-covers/deadpool.jpg"
+		img: "assets/movie-covers/deadpool.jpg"
 	},
 	{
 		id: 2,
@@ -19,7 +19,7 @@ export const movies: any[] = [
 		genres: [genreType.adventure, genreType.comedy, genreType.crime],
 		rate: "7.0",
 		length: "1hr 50mins",
-		img: "assets/movies-covers/we-are-the-millers.jpg"
+		img: "assets/movie-covers/we-are-the-millers.jpg"
 	},
 	{
 		id: 3,
@@ -29,7 +29,7 @@ export const movies: any[] = [
 		genres: [genreType.biography, genreType.drama, genreType.history],
 		rate: "8.0",
 		length: "2hr 27mins",
-		img: "assets/movies-covers/straight-outta-compton.jpg"
+		img: "assets/movie-covers/straight-outta-compton.jpg"
 	},
 	{
 		id: 4,
@@ -39,7 +39,7 @@ export const movies: any[] = [
 		genres: [genreType.crime, genreType.drama, genreType.sport],
 		rate: "6.9",
 		length: "2hr 5mins",
-		img: "assets/movies-covers/gridiron-gang.jpg"
+		img: "assets/movie-covers/gridiron-gang.jpg"
 	},
 	{
 		id: 5,
@@ -49,7 +49,7 @@ export const movies: any[] = [
 		genres: [genreType.biography, genreType.crime, genreType.drama],
 		rate: "7.8",
 		length: "2hr 37mins",
-		img: "assets/movies-covers/american-gangster.jpg"
+		img: "assets/movie-covers/american-gangster.jpg"
 	},
 	{
 		id: 6,
@@ -59,7 +59,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.crime, genreType.drama],
 		rate: "6.8",
 		length: "1hr 53mins",
-		img: "assets/movies-covers/gangster-squad.jpg"
+		img: "assets/movie-covers/gangster-squad.jpg"
 	},
 	{
 		id: 7,
@@ -69,7 +69,7 @@ export const movies: any[] = [
 		genres: [genreType.crime, genreType.mystery, genreType.thriller],
 		rate: "7.3",
 		length: "1hr 55mins",
-		img: "assets/movies-covers/now-you-see-me.jpg"
+		img: "assets/movie-covers/now-you-see-me.jpg"
 	},
 	{
 		id: 8,
@@ -79,7 +79,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.adventure, genreType.scifi],
 		rate: "7.1",
 		length: "2hr 4mins",
-		img: "assets/movies-covers/jurassic-world.jpg"
+		img: "assets/movie-covers/jurassic-world.jpg"
 	},
 	{
 		id: 9,
@@ -89,7 +89,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.adventure, genreType.thriller],
 		rate: "7.5",
 		length: "2hr 11mins",
-		img: "assets/movies-covers/mission-impossible-rogue-nation.jpg"
+		img: "assets/movie-covers/mission-impossible-rogue-nation.jpg"
 	},
 	{
 		id: 10,
@@ -99,7 +99,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.adventure, genreType.thriller],
 		rate: "7.3",
 		length: "1hr 56mins",
-		img: "assets/movies-covers/the-man-from-uncle.jpg"
+		img: "assets/movie-covers/the-man-from-uncle.jpg"
 	},
 	{
 		id: 10,
@@ -109,7 +109,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.adventure, genreType.thriller],
 		rate: "6.9",
 		length: "2hr 28mins",
-		img: "assets/movies-covers/spectre.jpg"
+		img: "assets/movie-covers/spectre.jpg"
 	},
 	{
 		id: 11,
@@ -119,7 +119,7 @@ export const movies: any[] = [
 		genres: [genreType.biography, genreType.crime, genreType.drama],
 		rate: "7.0",
 		length: "2hr 28mins",
-		img: "assets/movies-covers/legend.jpg"
+		img: "assets/movie-covers/legend.jpg"
 	},
 	{
 		id: 12,
@@ -129,7 +129,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.drama, genreType.sport],
 		rate: "7.5",
 		length: "2hr 4mins",
-		img: "assets/movies-covers/southpaw.jpg"
+		img: "assets/movie-covers/southpaw.jpg"
 	},
 	{
 		id: 13,
@@ -139,7 +139,7 @@ export const movies: any[] = [
 		genres: [genreType.biography, genreType.drama, genreType.thriller],
 		rate: "7.7",
 		length: "2hr 22mins",
-		img: "assets/movies-covers/bridge-of-spies.jpg"
+		img: "assets/movie-covers/bridge-of-spies.jpg"
 	},
 	{
 		id: 14,
@@ -149,7 +149,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.adventure, genreType.scifi],
 		rate: "7.4",
 		length: "1hr 57mins",
-		img: "assets/movies-covers/ant-man.jpg"
+		img: "assets/movie-covers/ant-man.jpg"
 	},
 	{
 		id: 15,
@@ -159,7 +159,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.crime, genreType.thriller],
 		rate: "7.3",
 		length: "2hr 17mins",
-		img: "assets/movies-covers/fast-and-furious-7.jpg"
+		img: "assets/movie-covers/fast-and-furious-7.jpg"
 	},
 	{
 		id: 16,
@@ -169,7 +169,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.crime, genreType.drama],
 		rate: "5.6",
 		length: "1hr 34mins",
-		img: "assets/movies-covers/tracers.jpg"
+		img: "assets/movie-covers/tracers.jpg"
 	},
 	{
 		id: 17,
@@ -179,7 +179,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.crime, genreType.drama],
 		rate: "7.4",
 		length: "2hr 2mins",
-		img: "assets/movies-covers/running-scared.jpg"
+		img: "assets/movie-covers/running-scared.jpg"
 	},
 	{
 		id: 18,
@@ -189,7 +189,7 @@ export const movies: any[] = [
 		genres: [genreType.comedy],
 		rate: "7.8",
 		length: "1hr 40mins",
-		img: "assets/movies-covers/the-hangover.jpg"
+		img: "assets/movie-covers/the-hangover.jpg"
 	},
 	{
 		id: 19,
@@ -199,7 +199,7 @@ export const movies: any[] = [
 		genres: [genreType.comedy, genreType.crime],
 		rate: "6.7",
 		length: "1hr 28mins",
-		img: "assets/movies-covers/project-x.jpg"
+		img: "assets/movie-covers/project-x.jpg"
 	},
 	{
 		id: 20,
@@ -209,7 +209,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.crime, genreType.drama],
 		rate: "9.0",
 		length: "2hr 32mins",
-		img: "assets/movies-covers/the-dark-knight.jpg"
+		img: "assets/movie-covers/the-dark-knight.jpg"
 	},
 	{
 		id: 21,
@@ -219,7 +219,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.thriller],
 		rate: "6.1",
 		length: "1hr 35mins",
-		img: "assets/movies-covers/the-tournament.jpg"
+		img: "assets/movie-covers/the-tournament.jpg"
 	},
 	{
 		id: 22,
@@ -229,7 +229,7 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.scifi],
 		rate: "8.7",
 		length: "2hr 16mins",
-		img: "assets/movies-covers/the-matrix.jpg"
+		img: "assets/movie-covers/the-matrix.jpg"
 	},
 	{
 		id: 23,
@@ -239,6 +239,6 @@ export const movies: any[] = [
 		genres: [genreType.action, genreType.comedy, genreType.crime],
 		rate: "6.8",
 		length: "1hr 59mins",
-		img: "assets/movies-covers/bad-boys.jpg"
+		img: "assets/movie-covers/bad-boys.jpg"
 	}
 ];

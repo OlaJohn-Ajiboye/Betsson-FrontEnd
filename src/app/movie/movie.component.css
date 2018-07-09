@@ -1,0 +1,15 @@
+.movie-item{
+    padding-top: 30px;
+}
+.movie-head{
+    padding-bottom: 20px;
+}
+.movie-detail{
+    padding-top: 30px;
+}
+.movie-desc{
+    padding-top: 30px;
+}
+.movie-desc p{
+    text-align: justify;
+}
